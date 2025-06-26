@@ -6,10 +6,7 @@
 
 ## Signal Processing Pipeline
 
-The methodology is a multi-step process that takes a raw interferometric signal and reconstructs the final APW, representing the displacement of the sensor's membrane ($\Delta z(t)$). [cite_start]The workflow is as follows[cite: 104]:
-
-![Signal Processing Pipeline](https://i.imgur.com/8QkC45R.png)
-*Figure 3 from the manuscript, outlining the data processing workflow.*
+The methodology is a multi-step process that takes a raw interferometric signal and reconstructs the final APW, representing the displacement of the sensor's membrane.
 
 1.  **Normalization (`001-base-file-check-with-normalization.py`)**: The raw input signal is validated and preprocessed. [cite_start]This includes outlier removal, applying a Butterworth high-pass filter, and performing min-max normalization to produce a clean, standardized signal[cite: 94, 95, 97, 98].
 2.  **Rate of Change Analysis (`002-roc_epoch.py`)**: The script calculates the signal's rate of change and its envelope using the Hilbert transform. [cite_start]Peaks in this envelope are detected, and an averaged epoch is created to identify time points corresponding to low rates of change, which are potential breakpoints[cite: 105, 108, 114, 119].
