@@ -1,6 +1,6 @@
 # Arterial Pulse Waveform Extraction from Fabry-Perot Interferometric Signals
 
-This repository contains the complete Python-based processing pipeline for extracting Arterial Pulse Waveform (APW) signals from low-finesse Fabry-Perot interferometer (FPI) measurements, as described in the paper: *"[Method for Extracting Arterial Pulse Waveforms from Interferometric Signals](link-to-your-published-paper-here)".
+This repository contains the complete Python-based processing pipeline for extracting Arterial Pulse Waveform (APW) signals from low-finesse Fabry-Perot interferometer (FPI) measurements, as described in the paper: "...".
 
 A key novelty of this work is the presentation of a complete, accessible Python-based processing pipeline; to the authors' knowledge, no such open-source repository for demodulating these specific interferometric signals to obtain a raw arterial pulse waveform previously existed. This code is provided to enhance reproducibility and foster further innovation in the field of non-invasive cardiovascular diagnostics.
 
